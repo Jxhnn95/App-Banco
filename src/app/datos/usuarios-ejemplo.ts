@@ -14,4 +14,11 @@ export const clientes = [
             usuario: "Usuario1"
             saldo: 22.30,
     }
+    {
+        idGestor: 3,
+        correo: "ejemplo@correo1.com,
+            password: "password1"
+            usuario: "Usuario1"
+            saldo: 22.30,
+    }
 ]

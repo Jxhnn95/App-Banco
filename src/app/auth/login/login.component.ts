@@ -18,10 +18,10 @@ export class LoginComponent {
   }
 
   const usuarioLogin = this.clienteService.login(this.email, this.password){
-  if (usuario) {
-    console.log(usuario);
+  if ( usuario ) {
+    console.log( usuario );
     this.router.navigateByUrl("/pages/dashboard")
-  }else {
+  } else {
     console.error('Credenciales incorrectas')
   }
 }
@@ -30,3 +30,6 @@ export class LoginComponent {
 
 
 }
+
+
+const router: Router
